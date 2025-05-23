@@ -1,6 +1,5 @@
 ﻿using System;
-public class Dipendente
-{
+public class Dipendente {
     private string nome;
     public string Nome
     {
@@ -11,14 +10,11 @@ public class Dipendente
     public int Eta
     {
         get { return eta; }
-        set
-        {
-            if (value >= 18)
-            {
+        set {
+            if (value >= 18) {
                 eta = value;
             }
-            else
-            {
+            else {
                 Console.WriteLine("Età non consentita");
             }
         }
@@ -54,7 +50,29 @@ public class Autista : Dipendente
         Console.WriteLine($"{Nome} sta guidando il veicolo con la patente {Patente}");
     }
 }
+//classe derivata 
+public class Meccanico : Dipendente
+{
+    //attributi privati
+    private string specializzazione;
 
+    //proprietà pubbliche
+    public string Specializzazione
+    {
+        get { return specializzazione; }
+        set { specializzazione = value; }
+    }
+
+    //costruttore
+    public Meccanico(string _nome, int _eta, string _specializzazione) : base(_nome, _eta)
+    {
+        Specializzazione = _specializzazione;
+    }
+    public override void EseguiCompito()
+    {
+        Console.WriteLine($"Ripara mezzi specializzati in: {Specializzazione}.");
+    }
+}
 //classe figlia del Dipendente
 public class OperatoreCentrale : Dipendente
 {
