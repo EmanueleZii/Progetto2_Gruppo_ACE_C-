@@ -8,19 +8,24 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Carlo\\.nuget\\packages\\": {}
+    "/Users/emanuele/.nuget/packages/": {},
+    "/Users/emanuele/Library/Application Support/Godot/mono/GodotNuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\VersionControlC#\\Progetto2_Gruppo_ACE_C-\\Progetto2Gruppo.csproj",
+      "projectUniqueName": "/Users/emanuele/Documents/WebDevProjects/Progetto2Gruppo/Progetto2Gruppo.csproj",
       "projectName": "Progetto2Gruppo",
-      "projectPath": "D:\\VersionControlC#\\Progetto2_Gruppo_ACE_C-\\Progetto2Gruppo.csproj",
-      "packagesPath": "C:\\Users\\Carlo\\.nuget\\packages\\",
-      "outputPath": "D:\\VersionControlC#\\Progetto2_Gruppo_ACE_C-\\obj\\",
+      "projectPath": "/Users/emanuele/Documents/WebDevProjects/Progetto2Gruppo/Progetto2Gruppo.csproj",
+      "packagesPath": "/Users/emanuele/.nuget/packages/",
+      "outputPath": "/Users/emanuele/Documents/WebDevProjects/Progetto2Gruppo/obj/",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/Users/emanuele/Library/Application Support/Godot/mono/GodotNuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Carlo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/emanuele/.nuget/NuGet/NuGet.Config",
+        "/Users/emanuele/.nuget/NuGet/config/Godot.Offline.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -38,13 +43,7 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.200"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -60,30 +59,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[8.0.15, 8.0.15]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[8.0.15, 8.0.15]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[8.0.15, 8.0.15]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[8.0.15, 8.0.15]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
