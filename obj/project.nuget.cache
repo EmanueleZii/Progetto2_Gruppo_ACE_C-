@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "WNeSGUJcM+AUqBAuEOPMGkT/kf129zL+SvzXZyAxC6QgqcCIWCTidKNgObCw1VUJ6g2FTbmvHVjDqkxBr2gcag==",
+  "dgSpecHash": "CEUZvn1FATw=",
   "success": true,
-  "projectFilePath": "/Users/emanuele/Documents/WebDevProjects/Progetto2Gruppo/Progetto2Gruppo.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\VersionControlC#\\Progetto2_Gruppo_ACE_C-\\Progetto2Gruppo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Carlo\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.15\\microsoft.netcore.app.ref.8.0.15.nupkg.sha512",
+    "C:\\Users\\Carlo\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.15\\microsoft.windowsdesktop.app.ref.8.0.15.nupkg.sha512",
+    "C:\\Users\\Carlo\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.15\\microsoft.aspnetcore.app.ref.8.0.15.nupkg.sha512",
+    "C:\\Users\\Carlo\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.15\\microsoft.netcore.app.host.win-x64.8.0.15.nupkg.sha512"
+  ],
   "logs": []
 }
