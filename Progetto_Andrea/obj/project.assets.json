@@ -1,11 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net9.0": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net9.0": []
   },
   "packageFolders": {
     "C:\\Users\\andre\\.nuget\\packages\\": {}
@@ -13,26 +13,26 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\DesktopFiles\\Files\\Formazione\\ItConsulting C#\\Progetti gruppo\\Progetto2_Gruppo_ACE_C-\\Progetto2Gruppo.csproj",
-      "projectName": "Progetto2Gruppo",
-      "projectPath": "C:\\DesktopFiles\\Files\\Formazione\\ItConsulting C#\\Progetti gruppo\\Progetto2_Gruppo_ACE_C-\\Progetto2Gruppo.csproj",
+      "projectUniqueName": "C:\\DesktopFiles\\Files\\Formazione\\ItConsulting C#\\Progetti gruppo\\Progetto2_Gruppo_ACE_C-\\Progetto_Andrea\\Progetto_Andrea.csproj",
+      "projectName": "Progetto_Andrea",
+      "projectPath": "C:\\DesktopFiles\\Files\\Formazione\\ItConsulting C#\\Progetti gruppo\\Progetto2_Gruppo_ACE_C-\\Progetto_Andrea\\Progetto_Andrea.csproj",
       "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-      "outputPath": "C:\\DesktopFiles\\Files\\Formazione\\ItConsulting C#\\Progetti gruppo\\Progetto2_Gruppo_ACE_C-\\obj\\",
+      "outputPath": "C:\\DesktopFiles\\Files\\Formazione\\ItConsulting C#\\Progetti gruppo\\Progetto2_Gruppo_ACE_C-\\Progetto_Andrea\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net8.0"
+        "net9.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "projectReferences": {}
         }
       },
@@ -49,8 +49,8 @@
       "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
-      "net8.0": {
-        "targetAlias": "net8.0",
+      "net9.0": {
+        "targetAlias": "net9.0",
         "imports": [
           "net461",
           "net462",
@@ -62,24 +62,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[8.0.15, 8.0.15]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[8.0.15, 8.0.15]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[8.0.15, 8.0.15]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[8.0.15, 8.0.15]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
