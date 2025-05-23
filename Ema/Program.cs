@@ -34,6 +34,27 @@ public class Dipendente
     }
 }
 
+//Creazione classe derivata
+public class Autista : Dipendente
+{
+    private string patente;
+    public string Patente
+    {
+        get { return patente; }
+        set { patente = value; }
+    }
+    //Costruttore che dichiara i valori della derivata
+    public Autista(string nome, int eta, string patente) : base(nome, eta)
+    {
+        Patente = patente;
+    }
+    //Sovrascrittura del metodo di stampa
+    public override void EseguiCompito()
+    {
+        Console.WriteLine($"{Nome} sta guidando il veicolo con la patente {Patente}");
+    }
+}
+
 //classe figlia del Dipendente
 public class OperatoreCentrale : Dipendente
 {
@@ -48,20 +69,32 @@ public class OperatoreCentrale : Dipendente
         }
         set
         {
-            if (turno == "Giorno")
+            if (turno == "Giorno" || turno == "giorno")
             {
-                return "Giorno";
+                Turno = "Giorno";
             }
-            if (turno == "Notte")
+            if (turno == "Notte" || turno == "notte")
             {
-                return "Notte";
+                Turno = "Notte";
             }
         }
     }
     //classe ereditata dalla classe madre
     public override void EseguiCompito()
     {
-        // base.EseguiCompito();
+        base.EseguiCompito();
         Console.WriteLine($"{Turno}");
+    }
+    public OperatoreCentrale(string nome,int eta, string _turno ) : base (nome, eta)
+    {
+        turno = _turno; 
+    }
+}
+
+public class Programs
+{
+    public static void Main()
+    { 
+        
     }
 }
