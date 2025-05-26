@@ -143,9 +143,10 @@ public class OperatoreCentrale : Dipendente
     }
 }
 
+//classe utente
 class Utente
 {
-    private List<string> azioni = new List<string>();
+    private List<string> azioni = new List<string>();   //lista in cui vengono salvate le azioni come stringhe
 
     public List<string> Azioni
     {
@@ -153,12 +154,12 @@ class Utente
         set { azioni = value; }
     }
 
-    public void AggiungiAzione(string azione)
+    public void AggiungiAzione(string azione)   //aggiunge sringa passata nella lista
     {
         Azioni.Add(azione);
     }
 
-    public void StampaAzioni()
+    public void StampaAzioni()  //stampa lista
     {
         foreach (string s in azioni)
         {
