@@ -135,11 +135,35 @@ public class OperatoreCentrale : Dipendente
     {
         Turno = _turno;
     }
-    
+
     public override void StampaInfo()
     {
         base.StampaInfo();
         Console.Write($", turno: {Turno}\n");
+    }
+}
+
+class Utente
+{
+    private List<string> azioni = new List<string>();
+
+    public List<string> Azioni
+    {
+        get { return azioni; }
+        set { azioni = value; }
+    }
+
+    public void AggiungiAzione(string azione)
+    {
+        Azioni.Add(azione);
+    }
+
+    public void StampaAzioni()
+    {
+        foreach (string s in azioni)
+        {
+            Console.WriteLine(s);
+        }
     }
 }
 
@@ -149,6 +173,7 @@ class Program
     {
         List<Dipendente> dipendenti = new List<Dipendente>();
         bool exit = false;
+        Utente utente = new Utente();
 
         while (!exit)
         {
@@ -158,6 +183,7 @@ class Program
             Console.WriteLine("[3] Aggiungi operatore centrale");
             Console.WriteLine("[4] Visualizza dipendenti");
             Console.WriteLine("[5] Esegui compiti");
+            Console.WriteLine("[6] Visualizza azioni utente");
             Console.WriteLine("[0] Esci");
 
             int menuAction = int.Parse(Console.ReadLine());
@@ -177,6 +203,7 @@ class Program
                     string patente = Console.ReadLine();
 
                     dipendenti.Add(new Autista(nome, eta, patente));
+                    utente.AggiungiAzione("Aggiunto Autista.");
                     break;
 
                 case 2:
@@ -188,6 +215,7 @@ class Program
                     string specializzazione = Console.ReadLine();
 
                     dipendenti.Add(new Meccanico(nome, eta, specializzazione));
+                    utente.AggiungiAzione("Aggiunto Meccanico.");
                     break;
 
                 case 3:
@@ -209,6 +237,7 @@ class Program
                     }
 
                     dipendenti.Add(new OperatoreCentrale(nome, eta, turno));
+                    utente.AggiungiAzione("Aggiunto Operatore Centrale");
                     break;
 
                 case 4:
@@ -216,6 +245,7 @@ class Program
                     {
                         d.StampaInfo();
                     }
+                    utente.AggiungiAzione("Visulizzati dipendenti.");
                     break;
 
                 case 5:
@@ -223,6 +253,11 @@ class Program
                     {
                         d.EseguiCompito();
                     }
+                    utente.AggiungiAzione("Eseguiti compiti.");
+                    break;
+
+                case 6:
+                    utente.StampaAzioni();
                     break;
 
                 default:

@@ -1,0 +1,15 @@
+C:\DesktopFiles\Files\Formazione\ItConsulting C#\Progetti gruppo\Progetto2_Gruppo_ACE_C-\bin\Debug\net8.0\Progetto2Gruppo.exe
+C:\DesktopFiles\Files\Formazione\ItConsulting C#\Progetti gruppo\Progetto2_Gruppo_ACE_C-\bin\Debug\net8.0\Progetto2Gruppo.deps.json
+C:\DesktopFiles\Files\Formazione\ItConsulting C#\Progetti gruppo\Progetto2_Gruppo_ACE_C-\bin\Debug\net8.0\Progetto2Gruppo.runtimeconfig.json
+C:\DesktopFiles\Files\Formazione\ItConsulting C#\Progetti gruppo\Progetto2_Gruppo_ACE_C-\bin\Debug\net8.0\Progetto2Gruppo.dll
+C:\DesktopFiles\Files\Formazione\ItConsulting C#\Progetti gruppo\Progetto2_Gruppo_ACE_C-\bin\Debug\net8.0\Progetto2Gruppo.pdb
+C:\DesktopFiles\Files\Formazione\ItConsulting C#\Progetti gruppo\Progetto2_Gruppo_ACE_C-\obj\Debug\net8.0\Progetto2Gruppo.GeneratedMSBuildEditorConfig.editorconfig
+C:\DesktopFiles\Files\Formazione\ItConsulting C#\Progetti gruppo\Progetto2_Gruppo_ACE_C-\obj\Debug\net8.0\Progetto2Gruppo.AssemblyInfoInputs.cache
+C:\DesktopFiles\Files\Formazione\ItConsulting C#\Progetti gruppo\Progetto2_Gruppo_ACE_C-\obj\Debug\net8.0\Progetto2Gruppo.AssemblyInfo.cs
+C:\DesktopFiles\Files\Formazione\ItConsulting C#\Progetti gruppo\Progetto2_Gruppo_ACE_C-\obj\Debug\net8.0\Progetto2Gruppo.csproj.CoreCompileInputs.cache
+C:\DesktopFiles\Files\Formazione\ItConsulting C#\Progetti gruppo\Progetto2_Gruppo_ACE_C-\obj\Debug\net8.0\Progetto2Gruppo.sourcelink.json
+C:\DesktopFiles\Files\Formazione\ItConsulting C#\Progetti gruppo\Progetto2_Gruppo_ACE_C-\obj\Debug\net8.0\Progetto2Gruppo.dll
+C:\DesktopFiles\Files\Formazione\ItConsulting C#\Progetti gruppo\Progetto2_Gruppo_ACE_C-\obj\Debug\net8.0\refint\Progetto2Gruppo.dll
+C:\DesktopFiles\Files\Formazione\ItConsulting C#\Progetti gruppo\Progetto2_Gruppo_ACE_C-\obj\Debug\net8.0\Progetto2Gruppo.pdb
+C:\DesktopFiles\Files\Formazione\ItConsulting C#\Progetti gruppo\Progetto2_Gruppo_ACE_C-\obj\Debug\net8.0\Progetto2Gruppo.genruntimeconfig.cache
+C:\DesktopFiles\Files\Formazione\ItConsulting C#\Progetti gruppo\Progetto2_Gruppo_ACE_C-\obj\Debug\net8.0\ref\Progetto2Gruppo.dll
